@@ -1,0 +1,12 @@
+# ninja log v6
+97	928	7695239053362490	src/app/CMakeFiles/paging.dir/App.cpp.obj	a720f0106dd2135
+116	1234	7696014086600478	src/cli/CMakeFiles/CLI.dir/CLI.cpp.obj	bf5c8ef36a2e9d60
+1926	2633	7696035940698658	src/app/paging.exe	5288f4e2f5858f54
+27	842	7696092538803110	build.ninja	158cd7fa5b6688a7
+31	1085	7695229174306140	src/tile/CMakeFiles/Tile.dir/Tile.cpp.obj	6a56c3ef3bb91e21
+1236	1550	7696014097793889	src/cli/libCLI.a	6118c1016b426b33
+42	1150	7695229174416563	src/tile/CMakeFiles/Tiles.dir/Tiles.cpp.obj	bf7a5318b7629355
+1086	1263	7695229184848550	src/tile/libTile.a	2ddb16277275d06b
+1263	1460	7695229186629161	src/tile/libTiles.a	3bba582d4b007eb9
+32	1474	7696035921752833	src/referenceStringReader/CMakeFiles/ReferenceStringReader.dir/ReferenceStringReader.cpp.obj	fec586313b01ae96
+1475	1926	7696035936191533	src/referenceStringReader/libReferenceStringReader.a	f5b9ed3123dd012c

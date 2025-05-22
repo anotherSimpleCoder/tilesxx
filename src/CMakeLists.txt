@@ -1,0 +1,5 @@
+add_subdirectory(app)
+add_subdirectory(cli)
+add_subdirectory(tile)
+add_subdirectory(referenceStringReader)
+add_subdirectory(paging)
