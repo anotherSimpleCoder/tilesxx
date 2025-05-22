@@ -9,7 +9,7 @@
 #include <string>
 
 namespace Paging {
-    PagingAlgorithm* instantiatePagingAlgorithm(std::string dllPath);
+    PagingAlgorithm* instantiatePagingAlgorithm(const std::string& dllPath);
     void processReferenceString(Tiles& tiles, ReferenceStringReader& reader, PagingAlgorithm& pagingAlgorithm);
 };
 #endif //PAGING_H
