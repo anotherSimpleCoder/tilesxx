@@ -4,4 +4,5 @@ add_library(CLI
 
 target_link_libraries(CLI
     ReferenceStringReader
+    Paging
 )

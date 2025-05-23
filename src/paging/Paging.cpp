@@ -30,11 +30,10 @@ PagingAlgorithm* loadDLL(const std::string& dllPath) {
 
     dlerror();
 
-    const auto createAlgorithm = static_cast<AlgorithmConstructor>(dlsym(dllHandle, "createAlgorithm"));
-    const std::string dlsymError = dlerror();
+    const auto createAlgorithm = (AlgorithmConstructor)(dlsym(dllHandle, "createAlgorithm"));
 
-    if (dlsymError.c_str()) {
-        dlclose(dllHandle);
+    if (char* dllErr = dlerror(); !dllErr) {
+        std::cerr << "Cannot open library: " << dllErr << std::endl;
         return nullptr;
     }
 
@@ -50,4 +49,8 @@ PagingAlgorithm* Paging::instantiatePagingAlgorithm(const std::string& dllPath) 
     }
 
     return loadDLL(dllPath);
+}
+
+void Paging::processReferenceString(Tiles &tiles, ReferenceStringReader &reader, PagingAlgorithm &pagingAlgorithm) {
+    return;
 }

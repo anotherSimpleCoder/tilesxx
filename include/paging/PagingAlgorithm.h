@@ -5,7 +5,6 @@
 #ifndef PAGINGALGORITHM_H
 #define PAGINGALGORITHM_H
 
-#include <string>
 #include <vector>
 #include "tile/Tiles.h"
 
